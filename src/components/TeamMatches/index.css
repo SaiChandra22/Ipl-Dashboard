@@ -1,0 +1,74 @@
+.RCB-bg-color {
+  background-image: linear-gradient(#a4261d, #1e293b);
+}
+
+.KKR-bg-color {
+  background-image: linear-gradient(#5755a7, #1e293b);
+}
+
+.KXP-bg-color {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+}
+
+.CSK-bg-color {
+  background-image: linear-gradient(#f7db00, #1e293b);
+}
+
+.RR-bg-color {
+  background-image: linear-gradient(#da237b, #1e293b);
+}
+
+.MI-bg-color {
+  background-image: linear-gradient(#13418b, #1e293b);
+}
+
+.SH-bg-color {
+  background-image: linear-gradient(#f26d22, #1e293b);
+}
+
+.DC-bg-color {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+}
+
+.team-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.team-banner {
+  width: 92%;
+  max-width: 530px;
+}
+
+.latest-matches {
+  width: 92%;
+  max-width: 530px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 22px;
+}
+
+.match-cards-list {
+  width: 95%;
+  max-width: 560px;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .team-banner {
+    max-width: 1024px;
+  }
+  .latest-matches {
+    max-width: 1024px;
+  }
+  .match-cards-list {
+    max-width: 1050px;
+  }
+}
